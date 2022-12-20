@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-ul {
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    border-radius: 50%;
+    padding: 25px;
+}
+
+header div h1 {
+    margin-left: 15px;
+    font-size: 45px;
+}
+
+section {
+    display: flex;
+}
+
+section h2 {
+    width: 25%;
+    border-right: 2px solid black;
+    margin-right: 10px
+}
+
+section .right {
+    width: 75%;
+}
