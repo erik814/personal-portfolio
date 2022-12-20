@@ -1,3 +1,8 @@
+:root {
+    --primary: #103106;
+    --ssecondary: #4c0236;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -11,7 +16,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: var(--primary);
+    color: #ffffff;
 }
 
 header ul {
@@ -44,7 +50,7 @@ section {
 section h2 {
     width: 25%;
     border-right: 2px solid black;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 section .right {
