@@ -1,6 +1,11 @@
 :root {
     --primary: #103106;
     --ssecondary: #4c0236;
+    --white: #fff;
+}
+
+* {
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
 }
 
 html, body {
@@ -8,8 +13,28 @@ html, body {
     padding: 0;
 }
 
-#contact-ul {
+#about-me {
+    padding-left: 25px;
+}
+
+#contact-me {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+#contact-me h3 {
+    padding-left: 25px;
+}
+
+.contact-ul {
     display: flex;
+    gap: 45px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.contact-ul li {
+    /* color: var(--white); */
 }
 
 header {
@@ -17,14 +42,14 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 header ul {
     display: flex;
     gap: 25px;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 100px;
     font-size: 20px;
 }
 
@@ -43,6 +68,19 @@ header div h1 {
     font-size: 45px;
 }
 
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+#projects {
+
+}
+
+#projects h2 {
+    padding-left: 25px;
+}
+
 section {
     display: flex;
 }
@@ -54,5 +92,5 @@ section h2 {
 }
 
 section .right {
-    width: 75%;
+    width: 75%; 
 }
