@@ -1,6 +1,5 @@
 :root {
     --primary: #103106;
-    --ssecondary: #4c0236;
     --white: #fff;
 }
 
@@ -12,7 +11,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 
 #contact-me {
     display: flex;
@@ -68,11 +66,6 @@ header div h1 {
     font-size: 45px;
 }
 
-/* .main-image {
-    width: 100%;
-    height: auto;
-} */
-
 .small-image {
     width: 100%;
 }
@@ -85,20 +78,6 @@ nav ul li a {
 #projects {
     margin-bottom: 10px;
 }
-
-#projects div {
-    /* gap: 11px; */
-}
-
-
-
-/* #projects h2 {
-    padding-left: 25px;
-} */
-
-/* .main-image {
-    width: 100%;
-} */
 
 section {
     display: flex;
@@ -120,7 +99,7 @@ section .right {
 }
 
 section .right div {
-    outline: 2px solid white;
+    outline: 2px solid var(--white);
     flex: 0 0 25%;
 }
 
@@ -134,33 +113,18 @@ section .right div.main {
     flex-basis: 100%;
 }
 
-/* section .right img {
-    flex-shrink: 1;
-    flex-basis: 25%;
-} */
-
-.small-image {
-    /* width: 300px;
-    height: 300px; */
-}
-
-
 
 
 
 @media screen and (max-width: 768px) {
 
-    /* #contact-me {
-        margin-top: 10px;
-    }
-    */
     header {
         flex-wrap: wrap;
         justify-content: center;
     }
     
     section .right div {
-        outline: 2px solid white;
+        outline: 2px solid var(--white);
         flex: 0 0 50%;
     }
 
@@ -216,7 +180,7 @@ section .right div.main {
     }
 
     section .right div {
-        outline: 2px solid white;
+        outline: 2px solid var(--white);
         flex: 0 0 100%;
     }
 
