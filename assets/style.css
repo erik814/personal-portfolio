@@ -15,6 +15,8 @@ html, body {
 
 
 #contact-me {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--primary);
     color: var(--white);
 }
@@ -27,7 +29,7 @@ html, body {
     display: flex;
     gap: 45px;
     list-style-type: none;
-    justify-content: center;
+    margin-right: 25px;
 }
 
 .contact-ul li a {
@@ -78,6 +80,10 @@ header div h1 {
 nav ul li a {
     color: var(--white);
     text-decoration: none;
+}
+
+#projects {
+    margin-bottom: 10px;
 }
 
 #projects div {
@@ -139,12 +145,39 @@ section .right div.main {
 }
 
 
-@media screen and (max-width: 480px) {
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* #contact-me {
+        margin-top: 10px;
+    }
+    */
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
+    section .right div {
+        outline: 2px solid white;
+        flex: 0 0 50%;
+    }
+
+    header ul {
+        margin-right: 0px;     
+    }
+
+}
+    
+
+
+
+
+@media screen and (max-width: 480px) {
+
     header {
         display: block;
-        /* align-items: center;
-        justify-content: space-between; */
         background-color: var(--primary);
         color: var(--white);
     }
@@ -155,8 +188,6 @@ section .right div.main {
     }
 
     header ul {
-        /* display: flex;
-        gap: 40px; */
         list-style-type: none;
         font-size: 20px;
     }
@@ -166,17 +197,18 @@ section .right div.main {
         padding-bottom: 10px;
     }
     
-    /* .main-image {
-        min-width: 0;
-    } */
-    
     section{
         display: flex;
         flex-direction: column;
     }
 
-    section h2 {
-        /* border-bottom: 2px solid black; */
+    section .right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+     section h2 {
         border-right: none;
         width: 100%;
         text-align: center;
@@ -188,13 +220,12 @@ section .right div.main {
         flex: 0 0 100%;
     }
 
-    /* .right {
-        width: 100%;
-        display: flex;
-        align-items: center;
+    section div p {
+        margin: 10px;
     }
 
-    .right p {
-        margin-left: 25px;
-    } */
+    section h3 {
+        text-align: center;
+    }
+
 }
