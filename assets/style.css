@@ -144,9 +144,10 @@ section .right div.main {
         display: block;
         font-size: 15px;
         text-align: center;
+        padding: 0px;
+        margin: 10px 0px;
     }
 
-    
     header {
         display: flex;
         background-color: var(--primary);
@@ -165,6 +166,7 @@ section .right div.main {
     header ul {
         list-style-type: none;
         font-size: 15px;
+        padding: 0px;
     }
 
     header nav ul li {
@@ -179,16 +181,16 @@ section .right div.main {
     }
 
     section .right {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-     section h2 {
-        border-right: none;
-        width: 100%;
-        text-align: center;
-        text-decoration: underline;
+    section h2 {
+    border-right: none;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
     }
 
     section .right div {
