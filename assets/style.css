@@ -96,6 +96,7 @@ section .right {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
+    padding-right: 10px;
 }
 
 section .right div {
@@ -187,10 +188,10 @@ section .right div.main {
     }
 
     section h2 {
-    border-right: none;
-    width: 100%;
-    text-align: center;
-    text-decoration: underline;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
     }
 
     section .right div {
