@@ -203,8 +203,9 @@ section .right div.main {
         margin: 10px;
     }
 
-    section h3 {
+    #contact-me h3 {
         text-align: center;
+        padding-left: 0px;
     }
 
 }
